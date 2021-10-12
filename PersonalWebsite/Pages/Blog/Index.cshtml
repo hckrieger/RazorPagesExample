@@ -1,0 +1,31 @@
+﻿@page
+@model PersonalWebsite.Pages.Blog.IndexModel
+@{
+    ViewData["Title"] = "Blog edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="edit-content">
+    <a asp-page="/Account/Manage/Index" asp-area="Identity" class="btn btn-lg btn-primary">Account Settings</a>
+    <hr />
+    <table class="table" style="width: 50%; border: 1px solid #dee2e6;">
+        <thead class="thead-dark">
+            <tr>
+                <th>Posts</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a asp-page="/Posts/Index">Posts</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a asp-page="/Categories/Index">Categories</a>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>

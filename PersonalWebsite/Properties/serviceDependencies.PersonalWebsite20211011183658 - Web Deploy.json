@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/personalwebsite5c4b8c45-7a8f-4f41-b79b-a7adc2caaf99dbserver/databases/PersonalWebsite5c4b8c45-7a8f-4f41-b79b-a7adc2caaf99_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

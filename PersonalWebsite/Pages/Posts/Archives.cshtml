@@ -1,0 +1,26 @@
+﻿@page
+@model PersonalWebsite.Pages.Posts.ArchivesModel
+@{
+    ViewData["Title"] = "Posts";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1 style="margin-bottom: -7px;">Posts</h1>
+
+<div class="row post-archives">
+    @foreach (var item in Model.Posts)
+    {
+        <div class="col-lg-6">
+
+            <div class="post post-@item.PostId">
+
+                <h5>Hunter Krieger</h5>
+                <h3><a asp-page="/Posts/Details" asp-route-id="@item.PostId">@item.Title</a></h3>
+                <h5>@item.DatePublished</h5>
+                <h5>@item.Category.Name</h5>
+            </div>
+        </div>
+
+    }
+
+</div>

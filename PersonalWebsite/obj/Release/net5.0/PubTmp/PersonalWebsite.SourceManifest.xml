@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\hunte\source\repos\ASP\PersonalWebsite\PersonalWebsite\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\hunte\source\repos\ASP\PersonalWebsite\PersonalWebsite\obj\Release\net5.0\PubTmp\EFSQLScripts\PersonalWebsite.Data.ApplicationDbContext.sql" />
+</sitemanifest>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PersonalWebsite20211011183658" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\hunte\\source\\repos\\ASP\\PersonalWebsite\\PersonalWebsite\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="PersonalWebsite.Data.ApplicationDbContext" description="" value="Data Source=tcp:personalwebsite5c4b8c45-7a8f-4f41-b79b-a7adc2caaf99dbserver.database.windows.net,1433;Initial Catalog=PersonalWebsite5c4b8c45-7a8f-4f41-b79b-a7adc2caaf99_db;User Id=hckrieger@personalwebsite5c4b8c45-7a8f-4f41-b79b-a7adc2caaf99dbserver;Password=g&amp;@Ky-K7}]?xnYE}" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\hunte\\source\\repos\\ASP\\PersonalWebsite\\PersonalWebsite\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\PersonalWebsite\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
